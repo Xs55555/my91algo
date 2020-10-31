@@ -53,6 +53,10 @@ var plusOne = function(digits) {
 ```javascript
 /**
  * 解法2: 利用bigint大数相加，直接转成数字后加1，再转成数组
+ *
+ * 时间复杂度O(1)
+ * 空间复杂度O(1)
+ *
  * @param {number[]} digits
  * @return {number[]}
  */
