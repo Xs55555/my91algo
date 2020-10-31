@@ -37,7 +37,6 @@ var plusOne = function(digits) {
 ```
 
 
-
 # 复杂度
 
 * 时间复杂度O(n) , n为数组长度
@@ -49,3 +48,17 @@ var plusOne = function(digits) {
   > 平均时间复杂度O(n)
 
 * 空间复杂度O(1)
+
+
+```javascript
+/**
+ * 解法2: 利用bigint大数相加，直接转成数字后加1，再转成数组
+ * @param {number[]} digits
+ * @return {number[]}
+ */
+var plusOne = function(digits) {
+    const num = BigInt(digits.join(''));    
+    return (num + BigInt(1)).toString().split('');
+};
+
+```
