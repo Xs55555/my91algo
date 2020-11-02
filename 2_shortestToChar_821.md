@@ -16,7 +16,8 @@ https://leetcode-cn.com/problems/shortest-distance-to-a-character/
  */
 var shortestToChar = function(S, C) {
     let res = [];
-    let prev = Number.MIN_SAFE_INTEGER / 2;
+    // 因为S是[0, 10000]，所以直接初始化为-10000表示相对小即可
+    let prev = -10001;
     
     for (let i = 0; i < S.length; i++) {
         if (S.charAt(i) == C) {
@@ -25,7 +26,8 @@ var shortestToChar = function(S, C) {
         res[i] = i - prev;
     }
 
-    prev = Number.MAX_SAFE_INTEGER;
+    // 初始化为相对大值
+    prev = 10001;
     for (let i = S.length - 1; i >= 0; i--) {
         if (S.charAt(i) == C) {
             prev = i;
