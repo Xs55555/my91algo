@@ -1,3 +1,6 @@
+### 题目
+https://leetcode-cn.com/problems/shortest-distance-to-a-character/
+
 ### 思路
 
 1. 从前往后遍历，得出从0到i时，与当前字符s[i]等于C的最近距离
