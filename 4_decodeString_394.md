@@ -47,12 +47,8 @@ function decodeString(S) {
         let count = +stack.pop();
 
         // 字符拼接对应的次数
-        let pushStr = '';
-        while (count) {
-            pushStr += str;
-            count--;
-        }
-        
+        let pushStr = str.repeat(count);  
+
         stack.push(pushStr);
     }
 
