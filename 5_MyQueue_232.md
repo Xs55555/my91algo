@@ -1,3 +1,6 @@
+### 题目
+https://leetcode-cn.com/problems/implement-queue-using-stacks/
+
 ### 思路
 解法1:用一个数组(栈)来维护一个队列(数组的头部是队列尾部，数组尾部是队列头部，队头出队，队尾入队)
 * 出队直接取数组队最后一个元素
