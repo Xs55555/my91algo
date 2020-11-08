@@ -17,3 +17,4 @@
 ## 2. 链表
 * [24. 两两交换链表中的节点](https://github.com/sinkhaha/my91algo/blob/master/7_swapPairs_24.md) `中等` `迭代` `递归`
 
+* [61. 旋转链表](https://github.com/sinkhaha/my91algo/blob/master/8_rotateRight_61.md) `中等` `链表` `双指针`
