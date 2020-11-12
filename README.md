@@ -24,3 +24,7 @@
 * [142. 环形链表 II](https://github.com/sinkhaha/my91algo/blob/master/11_detectCycle_142.md) `中等` `双指针`
 
 * [146. LRU缓存机制](https://github.com/sinkhaha/my91algo/blob/master/12_LRUCache_146.md) `中等` `设计` `哈希表` `双向链表`
+
+## 3. 树
+* [104. 二叉树的最大深度](https://github.com/sinkhaha/my91algo/blob/master/13_maxDepth_104.md) `简单` `递归` `bfs广度优先`
+
