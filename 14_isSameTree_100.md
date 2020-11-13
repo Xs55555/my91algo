@@ -1,6 +1,7 @@
 ### 题目
 **100. 相同的树**
 >简单
+
 给定两个二叉树，编写一个函数来检验它们是否相同。
 
 如果两个树在结构上相同，并且节点具有相同的值，则认为它们是相同的。
@@ -82,7 +83,7 @@ var isSameTree = function(p, q) {
 
 ### 解法2: 广度优先
 #### 思路
-一层层遍历比较节点。
+一层层遍历比较节点
 
 用两个队列queue1和queue2分别存储两个二叉树每一层的节点，每次从两个队列各取出一个节点，进行以下操作：
 
@@ -134,6 +135,11 @@ var isSameTree = function(p, q) {
         if ((left1 == null && left2 != null) || (left1 != null && left2 == null)) {
             return false;
         }
+        // 也可以用异或运算判断，简洁点
+        // if (left1 == null ^ left2 == null) {
+        //    return false;
+        // }
+。
         if ((right1 == null && right2 != null) || (right1 != null && right2 == null)) {
             return false;
         }
