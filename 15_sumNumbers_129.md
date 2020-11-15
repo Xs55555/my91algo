@@ -118,7 +118,7 @@ var dfs = function(root, preSum) {
 
 * 2是叶子节点，所以sum=0+12=12， 3是叶子节点，所以sum=12+13=25
 
-代码
+#### 代码
 
 ```javascript
 /**
