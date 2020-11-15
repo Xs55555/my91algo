@@ -238,6 +238,6 @@ var inOrder = function(root, result = []) {
 
 #### 复杂度
 
- * 时间复杂度O(N), N 为二叉树的节点数
+ * 时间复杂度O(N)， N 为二叉树的节点数
  * 空间复杂度O(N)
 

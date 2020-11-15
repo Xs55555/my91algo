@@ -47,7 +47,7 @@ var maxDepth = function(root) {
 #### 复杂度
 * 时间复杂度：O(N)
 * 空间复杂度：O(N) 递归栈空间
- 
+
 ### 解法2: bfs广度优先
 
 #### 思路
@@ -75,6 +75,7 @@ var maxDepth = function(root) {
             if (curNode.left) queue.push(curNode.left);
             if (curNode.right) queue.push(curNode.right);
         }
+        // 每遍历完一层，深度加1
         maxDeep++;
     }
     
@@ -84,5 +85,5 @@ var maxDepth = function(root) {
 ```
 
 #### 复杂度
-* 时间复杂度: O(N), N为节点数
+* 时间复杂度: O(N)， N为节点数
 * 空间复杂度: 取决于队列存储的元素数量，最坏会达到 O(N)

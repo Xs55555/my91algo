@@ -115,8 +115,8 @@ var getIntersectionNode = function(headA, headB) {
 ```
 
 #### 复杂度
-* 时间复杂度O(m) n为Max(len(headA), len(headB))
-* 空间复杂度O(n) n为放到set集合的链表的长度
+* 时间复杂度O(n)， n为Max(len(headA), len(headB))
+* 空间复杂度O(n) ，n为放到set集合的链表的长度
 
 
 ### 解法2: 统计法(随便命的名)
@@ -150,7 +150,8 @@ var getIntersectionNode = function(headA, headB) {
             lenB--;
         }
     }
-
+    
+    // 同时遍历
     while (headA != headB) {
         headA = headA.next;
         headB = headB.next;
@@ -170,8 +171,12 @@ var getLength = function (head) {
 ```
 
 #### 复杂度
-* 时间复杂度O(n) n为Max(len(headA), len(headB))
+* 时间复杂度O(n) ，n为Max(len(headA), len(headB))
+
 * 空间复杂度O(1)
+  
+  > 空间复杂度比解法1更优
+  
   
 ### 解法3: 双指针
 #### 思路
@@ -179,10 +184,12 @@ var getLength = function (head) {
 1.  链表A的长度和链表B的长度相等，它们每次都走一步，在遍历完链表前，肯定会在相交点相遇
 2.  链表A的长度和链表B的长度不相等
 
-这里主要是第2种情况的处理麻烦，当链表A和链表B长度不相等时，如果同时从头节点遍历不可能会相交， 所以需要消除两个链表的长度差
+这里主要是第2种情况的处理麻烦，当链表A和链表B长度不相等时，如果同时从头节点遍历不可能会相交， 所以需要消除两个链表的长度差。
+
+
 
 消除长度差（假设B链表比A链表长）
-* 指针 pA 指向 A 链表，指针 pB 指向 B 链表，依次往后遍历
+* 指针 pA 指向 A 链表，指针 pB 指向 B 链表，依次`从左往右遍历`
 * 如果 pA 遍历完链表A了 为null时，下一步让它从B链表头节点开始，即 pA = headB 继续遍历；(此时pB指针到B链表末尾是A链表和B链表的长度差)
 * 如果 pB 遍历完链表B了 为null时，下一步让它从A链表头节点开始，即 pB = headA 继续遍历；(此时pB走完了B链表，而pA走完了长度差的长度，pB指针回到了A链表头节点，即相当于pA和pB消除了长度差，此时距离各自的链表尾是同样的长度，同时走如果相交肯定会相遇)
 
@@ -212,5 +219,5 @@ var getIntersectionNode = function(headA, headB) {
 ```
 
 #### 复杂度
-* 时间O(m+n) m和n分别为两个链表的长度
+* 时间O(m+n)， m和n分别为两个链表的长度
 * 空间O(1)
