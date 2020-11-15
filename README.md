@@ -28,3 +28,6 @@
 ## 3. 树
 * [104. 二叉树的最大深度](https://github.com/sinkhaha/my91algo/blob/master/13_maxDepth_104.md) `简单` `递归` `bfs广度优先`
 
+* [100. 相同的树](https://github.com/sinkhaha/my91algo/blob/master/14_isSameTree_100.md) `简单` `递归` `深度优先` `广度优先`
+* [129. 求根到叶子节点数字之和](https://github.com/sinkhaha/my91algo/blob/master/15_sumNumbers_129.md) `中等` `深度优先` `广度优先`
+
