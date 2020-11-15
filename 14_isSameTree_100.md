@@ -45,8 +45,8 @@
 #### 思路
 递归
 * 如果两个树都为空，则两个树相同；
-* 如果一个树为空，一个树不为空，则两个树一定不同； 
-* 如果两个树都不为空，则判断它们的值是否相等
+* 如果一个树为空，一个树不为空，即结构不同，则两个树一定不同； 
+* 如果两个树都不为空，即结构相同，则判断它们的值是否相等
   > 如果值不相等，则不相同
   >
   > 如果值相等，则分别递归判断左右子树是否相同
@@ -83,7 +83,7 @@ var isSameTree = function(p, q) {
 
 ### 解法2: 广度优先
 #### 思路
-一层层遍历比较节点
+一层层遍历比较节点，两棵树是否相同，先判断树的结构是否相同，结构相同则判断值是否相同，结构不同则两棵树不同。
 
 用两个队列queue1和queue2分别存储两个二叉树每一层的节点，每次从两个队列各取出一个节点，进行以下操作：
 
@@ -168,3 +168,76 @@ var isSameTree = function(p, q) {
 #### 复杂度
 * 时间复杂度 O(min(m,n)),m 和 n 分别是两个二叉树的节点数
 * 空间复杂度 O(min(m,n)
+
+
+
+
+
+### 解法3: 前序遍历和中序列遍历
+
+#### 思路
+
+树的`前序遍历`和`中序遍历`可以确定一棵树，所以比较两个树的前序遍历结果和中序遍历结果即可，注意空节点也要有个占位标识别
+
+#### 代码
+
+```javascript
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val, left, right) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.left = (left===undefined ? null : left)
+ *     this.right = (right===undefined ? null : right)
+ * }
+ */
+/**
+ * 
+ * @param {TreeNode} p
+ * @param {TreeNode} q
+ * @return {boolean}
+ */
+var isSameTree = function(p, q) {
+    let preOrderP = preOrder(p).join('');
+    let preOrderQ = preOrder(q).join('');
+
+    let inOrderP = inOrder(p).join('');
+    let inOrderQ = inOrder(q).join('');
+    
+    // 直接转成字符串比较即可
+    return preOrderP == preOrderQ && inOrderQ == inOrderQ;
+};
+
+// 树的前序遍历
+var preOrder = function (root, result = []) {
+    if (root == null) {
+        result.push('#'); // 空节点占位
+        return result;
+    }
+    result.push(root.val);
+    preOrder(root.left, result);
+    preOrder(root.right, result);
+
+    return result;
+}
+
+// 树的中序遍历
+var inOrder = function(root, result = []) {
+    if (root == null) {
+        result.push('#'); // 空节点占位
+        return result;
+    }
+    inOrder(root.left, result);
+    result.push(root.val);
+    inOrder(root.right, result);
+
+    return result;
+}
+```
+
+
+
+#### 复杂度
+
+ * 时间复杂度O(N), N 为二叉树的节点数
+ * 空间复杂度O(N)
+
