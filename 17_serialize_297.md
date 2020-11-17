@@ -111,9 +111,14 @@ var deserialize = function(data) {
 ```
 
 ### 复杂度
-* 时间复杂度 serialize:O(N)、deserialize:O(N)
-* 空间复杂度 serialize:O(N)、 deserialize:O(N)
+serialize()
+* 时间复杂度 O(N) N为二叉树的节点数
+* 空间复杂度 O(h) h为二叉树的高度
 
+deserialize()
+* 时间复杂度 O(N) N为二叉树的节点数
+* 空间复杂度 O(N) 
+* 
 ## 解法2: bfs
 ### 思路
 1. 序列化：利用bfs一层层遍历，空节点用#号代替
@@ -212,5 +217,12 @@ var deserialize = function(data) {
 ```
 
 ### 复杂度
-* 时间复杂度 serialize:O(N)、deserialize:O(N)
-* 空间复杂度 serialize:O(N)、deserialize:O(N)
+serialize()
+* 时间复杂度 O(N) N为二叉树的节点数
+* 空间复杂度 O(q) q是队列的最大长度，最差是满二叉树，为N
+
+deserialize()
+* 时间复杂度 O(N) N为二叉树的节点数
+* 空间复杂度 O(N) 
+
+
