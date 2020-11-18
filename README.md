@@ -32,6 +32,7 @@
 
 * 17、[297. 二叉树的序列化与反序列化](https://github.com/sinkhaha/my91algo/blob/master/17_serialize_297.md)
 
-* 19、[987. 二叉树的垂序遍历](https://github.com/sinkhaha/my91algo/blob/master/18_verticalTraversal_987.md)
+* 18、[987. 二叉树的垂序遍历](https://github.com/sinkhaha/my91algo/blob/master/18_verticalTraversal_987.md)
 
 ## 4. 哈希表
+* 20、[1. 两数之和](https://github.com/sinkhaha/my91algo/blob/master/19_%20twoSum_1.md)

@@ -40,7 +40,7 @@ var twoSum = function(nums, target) {
         }
         hashMap.set(nums[i], i);
     }
-    throw new Error('找不到');
+    return [];
 };
 ```
 
