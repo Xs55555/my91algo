@@ -30,9 +30,9 @@
 
 * 16、[513. 找树左下角的值](https://github.com/sinkhaha/my91algo/blob/master/16_findBottomLeftValue_513.md) `中等` `深度优先` `广度优先`
 
-* 17、[297. 二叉树的序列化与反序列化](https://github.com/sinkhaha/my91algo/blob/master/17_serialize_297.md)
+* 17、[297. 二叉树的序列化与反序列化](https://github.com/sinkhaha/my91algo/blob/master/17_serialize_297.md) `困难` `深度优先` `广度优先`
 
-* 18、[987. 二叉树的垂序遍历](https://github.com/sinkhaha/my91algo/blob/master/18_verticalTraversal_987.md)
+* 18、[987. 二叉树的垂序遍历](https://github.com/sinkhaha/my91algo/blob/master/18_verticalTraversal_987.md) `中等` `深度优先` `排序`
 
 ## 4. 哈希表
-* 20、[1. 两数之和](https://github.com/sinkhaha/my91algo/blob/master/19_%20twoSum_1.md)
+* 20、[1. 两数之和](https://github.com/sinkhaha/my91algo/blob/master/19_%20twoSum_1.md) `简单` `哈希表`
