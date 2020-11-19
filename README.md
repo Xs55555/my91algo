@@ -16,16 +16,22 @@
 
 ## 2. 链表
 * 7、[24. 两两交换链表中的节点](https://github.com/sinkhaha/my91algo/blob/master/7_swapPairs_24.md) `中等` `迭代` `递归`
+  
 * 8、[61. 旋转链表](https://github.com/sinkhaha/my91algo/blob/master/8_rotateRight_61.md) `中等` `链表` `双指针`
+  
 * 9、[109. 有序链表转换二叉搜索树](https://github.com/sinkhaha/my91algo/blob/master/9_sortedListToBST_109.md) `中等` `递归` `双指针` `中序遍历`
+  
 * 10、[160. 相交链表](https://github.com/sinkhaha/my91algo/blob/master/10_getIntersectionNode_106.md) `简单` `双指针`
+  
 * 11、[142. 环形链表 II](https://github.com/sinkhaha/my91algo/blob/master/11_detectCycle_142.md) `中等` `双指针`
+  
 * 12、[146. LRU缓存机制](https://github.com/sinkhaha/my91algo/blob/master/12_LRUCache_146.md) `中等` `设计` `哈希表` `双向链表`
 
 ## 3. 树
 * 13、[104. 二叉树的最大深度](https://github.com/sinkhaha/my91algo/blob/master/13_maxDepth_104.md) `简单` `递归` `bfs广度优先`
 
 * 14、[100. 相同的树](https://github.com/sinkhaha/my91algo/blob/master/14_isSameTree_100.md) `简单` `递归` `深度优先` `广度优先`
+  
 * 15、[129. 求根到叶子节点数字之和](https://github.com/sinkhaha/my91algo/blob/master/15_sumNumbers_129.md) `中等` `深度优先` `广度优先`
 
 * 16、[513. 找树左下角的值](https://github.com/sinkhaha/my91algo/blob/master/16_findBottomLeftValue_513.md) `中等` `深度优先` `广度优先`
@@ -35,4 +41,7 @@
 * 18、[987. 二叉树的垂序遍历](https://github.com/sinkhaha/my91algo/blob/master/18_verticalTraversal_987.md) `中等` `深度优先` `排序`
 
 ## 4. 哈希表
-* 20、[1. 两数之和](https://github.com/sinkhaha/my91algo/blob/master/19_%20twoSum_1.md) `简单` `哈希表`
+* 19、[1. 两数之和](https://github.com/sinkhaha/my91algo/blob/master/19_%20twoSum_1.md) `简单` `哈希表`
+
+* 20、[347. 前 K 个高频元素](https://github.com/sinkhaha/my91algo/blob/master/20_topKFrequent_347.md) `中等` `哈希表` `大顶堆`
+  
