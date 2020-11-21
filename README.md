@@ -21,7 +21,7 @@
   
 * 9、[109. 有序链表转换二叉搜索树](https://github.com/sinkhaha/my91algo/blob/master/solution/9_sortedListToBST_109.md) `中等` `递归` `双指针` `中序遍历`
   
-* 10、[160. 相交链表](https://github.com/sinkhaha/my91algo/blob/master/solution/10_getIntersectionNode_106.md) `简单` `双指针`
+* 10、[160. 相交链表](https://github.com/sinkhaha/my91algo/blob/master/solution/10_getIntersectionNode_160.md) `简单` `双指针`
   
 * 11、[142. 环形链表 II](https://github.com/sinkhaha/my91algo/blob/master/solution/11_detectCycle_142.md) `中等` `双指针`
   
@@ -38,10 +38,10 @@
 
 * 17、[297. 二叉树的序列化与反序列化](https://github.com/sinkhaha/my91algo/blob/master/solution/17_serialize_297.md) `困难` `深度优先` `广度优先`
 
-* 18、[987. 二叉树的垂序遍历](https://github.com/sinkhaha/my91algo/blob/master/solution/solution/18_verticalTraversal_987.md) `中等` `深度优先` `排序`
+* 18、[987. 二叉树的垂序遍历](https://github.com/sinkhaha/my91algo/blob/master/solution/18_verticalTraversal_987.md) `中等` `深度优先` `排序`
 
 ## 4. 哈希表
-* 19、[1. 两数之和](https://github.com/sinkhaha/my91algo/blob/master/solution/solution/19_%20twoSum_1.md) `简单` `哈希表`
+* 19、[1. 两数之和](https://github.com/sinkhaha/my91algo/blob/master/solution/19_%20twoSum_1.md) `简单` `哈希表`
 
 * 20、[347. 前 K 个高频元素](https://github.com/sinkhaha/my91algo/blob/master/solution/20_topKFrequent_347.md) `中等` `哈希表` `大顶堆`
   
