@@ -49,5 +49,5 @@
 
 * 22、[3. 无重复字符的最长子串](https://github.com/sinkhaha/my91algo/blob/master/solution/22_lengthOfLongestSubstring_3.md) `中等` `哈希表` `滑动窗口`
 
-* 23、[30. 串联所有单词的子串](https://github.com/sinkhaha/my91algo/blob/master/solution/23_findSubstring_30.md)
+* 23、[30. 串联所有单词的子串](https://github.com/sinkhaha/my91algo/blob/master/solution/23_findSubstring_30.md) `困难` `哈希表` `滑动窗口`
 
