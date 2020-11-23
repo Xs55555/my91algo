@@ -44,7 +44,10 @@
 * 19、[1. 两数之和](https://github.com/sinkhaha/my91algo/blob/master/solution/19_%20twoSum_1.md) `简单` `哈希表`
 
 * 20、[347. 前 K 个高频元素](https://github.com/sinkhaha/my91algo/blob/master/solution/20_topKFrequent_347.md) `中等` `哈希表` `大顶堆`
-  
+
 * 21、[447. 回旋镖的数量](https://github.com/sinkhaha/my91algo/blob/master/solution/21_numberOfBoomerangs_447.md) `中等` `哈希表` `数学组合` 
 
 * 22、[3. 无重复字符的最长子串](https://github.com/sinkhaha/my91algo/blob/master/solution/22_lengthOfLongestSubstring_3.md) `中等` `哈希表` `滑动窗口`
+
+* 23、[30. 串联所有单词的子串](https://github.com/sinkhaha/my91algo/blob/master/solution/23_findSubstring_30.md)
+
