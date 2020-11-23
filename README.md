@@ -51,3 +51,4 @@
 
 * 23、[30. 串联所有单词的子串](https://github.com/sinkhaha/my91algo/blob/master/solution/23_findSubstring_30.md) `困难` `哈希表` `滑动窗口`
 
+* 24、[37. 解数独](https://github.com/sinkhaha/my91algo/blob/master/solution/24_solveSudoku_37.md) `困难` `回溯`
