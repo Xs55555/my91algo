@@ -55,3 +55,5 @@
 
 ## 5. 双指针
 * 25、[35. 搜索插入位置](https://github.com/sinkhaha/my91algo/blob/master/solution/25_searchInsert_35.md) `简单` `二分查找` `双指针`
+
+* 26、[74. 搜索二维矩阵](https://github.com/sinkhaha/my91algo/blob/master/solution/26_searchMatrix_74.md) `中等` `二分查找` `双指针` `二维数组映射成一维数组`
