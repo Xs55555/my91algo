@@ -89,3 +89,39 @@ var removeDuplicates = function(nums) {
 ### 复杂度
 * 时间复杂度O(n)
 * 空间复杂度O(1)
+
+### 类似题目
+[80. 删除排序数组中的重复项 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/)
+
+```javascript
+/**
+ *
+ * 时间复杂度O(n)
+ * 空间复杂度O(1)
+ *
+ * @param {number[]} nums
+ * @return {number}
+ */
+var removeDuplicates = function(nums) {
+    let n = nums.length;
+    if (n <= 1) {
+        return n;
+    }
+
+    let slow = 1;
+    let fast = 2;
+
+    while (fast < n) {
+        // 跟前一位不相等
+        // 或者 
+        // 跟前一位相等，且跟前前一位不相等
+        if (nums[fast] !== nums[slow] || (nums[fast] == nums[slow] && nums[fast] !== nums[slow-1]) ) {
+            slow++;
+            nums[slow] = nums[fast];
+        }
+        fast++;
+    }
+    return slow+1;
+};
+
+```
