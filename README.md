@@ -59,3 +59,5 @@
 * 26、[74. 搜索二维矩阵](https://github.com/sinkhaha/my91algo/blob/master/solution/26_searchMatrix_74.md) `中等` `二分查找` `双指针` `二维数组映射成一维数组`
 
 * 27、[26. 删除排序数组中的重复项](https://github.com/sinkhaha/my91algo/blob/master/solution/27_removeDuplicates_26.md) `简单` `双指针`
+
+* 28、[876. 链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/) `简单` `快慢指针`
