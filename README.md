@@ -61,3 +61,5 @@
 * 27、[26. 删除排序数组中的重复项](https://github.com/sinkhaha/my91algo/blob/master/solution/27_removeDuplicates_26.md) `简单` `双指针`
 
 * 28、[876. 链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/) `简单` `快慢指针`
+
+* 29、[1052. 爱生气的书店老板](https://github.com/sinkhaha/my91algo/blob/master/solution/29_maxSatisfied_1052.md) `中等` `双指针`
