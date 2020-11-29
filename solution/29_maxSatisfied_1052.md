@@ -127,6 +127,49 @@ var maxSatisfied = function(customers, grumpy, X) {
     return result;
 };
 ```
+
+```javascript
+/**
+ * 思路一样，一次遍历版本
+ * 
+ * @param {number[]} customers
+ * @param {number[]} grumpy
+ * @param {number} X
+ * @return {number}
+ */
+var maxSatisfied = function (customers, grumpy, X) {
+    // 老板不生气时的所有满意顾客
+    let satisfied = 0;
+    // 老板控制X分钟不生气时增加的满意的顾客数，即滑动窗口中增加的满意顾客
+    let total = 0;
+    // 在滑动窗口移动过程中 total 的最大值
+    let max = 0;
+
+    for (let i = 0; i < customers.length; i++) {
+        if (!grumpy[i]) {
+            satisfied += customers[i];
+        }
+
+        // 第一个滑动窗口
+        if (i < X && grumpy[i]) {
+            total += customers[i];
+        } else {
+            // i - X即移出滑动窗口的下标
+            if (grumpy[i - X]) {
+                total -= customers[i - X];
+            }
+            if (grumpy[i]) {
+                total += customers[i];
+            }
+        }
+        max = Math.max(max, total);
+    }
+    
+    // 原本满意的 + 冷静期把不满意的变成满意的
+    return satisfied + max;
+};
+```
+
 ### 复杂度
 * 时间复杂度 O(N)
 * 空间复杂度 O(1)
