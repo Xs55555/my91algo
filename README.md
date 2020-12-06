@@ -64,10 +64,36 @@
 
 * 29、[1052. 爱生气的书店老板](https://github.com/sinkhaha/my91algo/blob/master/solution/29_maxSatisfied_1052.md) `中等` `双指针`
 
-* 30、[239. 滑动窗口最大值](https://github.com/sinkhaha/my91algo/blob/master/solution/30_maxSlidingWindow_239.md)
+* 30、[239. 滑动窗口最大值](https://github.com/sinkhaha/my91algo/blob/master/solution/30_maxSlidingWindow_239.md) `困难` `双指针`
 
 # 进阶篇
+## 6. 高频考题
+### 31、树的遍历系列
+* [144. 二叉树的前序遍历](https://github.com/sinkhaha/my91algo/blob/master/solution/31_%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86%E7%B3%BB%E5%88%97/1_preorderTraversal_144.md) `中等` `递归` `迭代`
 
-## 1. 二叉树遍历系列
-* 31、[144.二叉树的前序遍历 94. 二叉树的中序遍历 145. 二叉树的后序遍历 102. 二叉树的层序遍历](https://github.com/sinkhaha/my91algo/blob/master/solution/31_preorderTraversal144_inorderTraversal94_postorderTraversal145_levelOrder102.md)
+* [94. 二叉树的中序遍历](https://github.com/sinkhaha/my91algo/blob/master/solution/31_%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86%E7%B3%BB%E5%88%97/2_inorderTraversal_94.md) `中等` `递归` `迭代`
 
+* [145. 二叉树的后序遍历](https://github.com/sinkhaha/my91algo/blob/master/solution/31_%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86%E7%B3%BB%E5%88%97/3_postorderTraversal_145.md) `中等` `递归` `迭代`
+
+* [102. 二叉树的层序遍历](https://github.com/sinkhaha/my91algo/blob/master/solution/31_%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86%E7%B3%BB%E5%88%97/4_levelOrder_102.md) `中等` `递归` `迭代`
+
+### 32、反转链表系列
+* [206. 反转链表](https://github.com/sinkhaha/my91algo/blob/master/solution/32_%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8%E7%B3%BB%E5%88%97/1_reverseList_206.md) `简单` `双指针`
+
+* [92. 反转链表 II](https://github.com/sinkhaha/my91algo/blob/master/solution/32_%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8%E7%B3%BB%E5%88%97/2_reverseBetween_92.md) `中等` `双指针`
+
+* [25. K 个一组翻转链表](https://github.com/sinkhaha/my91algo/blob/master/solution/32_%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8%E7%B3%BB%E5%88%97/3_reverseKGroup_25.md) `困难` `双指针` `递归` 
+
+### 33、位运算系列
+* [78. 子集]()  `中等`
+
+## 7. 前缀树
+## 8. 并查集
+
+## 9. 跳表
+
+## 10. 剪枝
+
+## 11. RK 和 KMP
+
+## 12. 堆
