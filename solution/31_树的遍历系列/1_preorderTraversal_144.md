@@ -88,4 +88,4 @@ var preorderTraversal = function(root) {
 ```
 #### 复杂度
 * 时间复杂度：O(n)，n 是二叉树的节点数
-* 空间复杂度：O(n)，为递归栈的深度，平均情况下为 O(logn)，最坏情况下树退化成链表为 O(n)
+* 空间复杂度：O(n)，为stack栈的空间，平均情况下为 O(logn)，最坏情况下树退化成链表为 O(n)
