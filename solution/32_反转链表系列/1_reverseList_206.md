@@ -16,13 +16,14 @@
 链接：https://leetcode-cn.com/problems/reverse-linked-list
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-### 思路
+### 解法：双指针
+#### 思路
 双指针
 * 定义两个指针：pre在后，cur在前，一次走一步，直到cur为null，即到链表尾部
 * 每次让 cur 的 next 指向 pre ，完成一次局部反转
 * pre指向cur，cur指向cur的下一个节点，即前进一步
 
-### 代码
+#### 代码
 ```js
 /**
  * Definition for singly-linked list.
