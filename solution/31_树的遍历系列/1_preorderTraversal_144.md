@@ -8,7 +8,7 @@ https://leetcode-cn.com/problems/binary-tree-preorder-traversal/
 #### 思路
 前序遍历：根节点—左子树—右子树
 
-* 先将 root 节点的值加入结果
+* 递归，当前root节点不为空时，先将 root 节点的值加入结果
 * 递归调用 preOrder(root.left) 来遍历 root 节点的左子树
 * 递归调用 preOrder(root.right) 来遍历 root 节点的右子
 * 递归终止的条件为空节点
