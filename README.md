@@ -85,7 +85,7 @@
 * [25. K 个一组翻转链表](https://github.com/sinkhaha/my91algo/blob/master/solution/32_%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8%E7%B3%BB%E5%88%97/3_reverseKGroup_25.md) `困难` `双指针` `递归` 
 
 ### 33、位运算系列
-* [78. 子集]()  `中等`
+* [78. 子集](https://github.com/sinkhaha/my91algo/blob/master/solution/33_%E4%BD%8D%E8%BF%90%E7%AE%97%E7%B3%BB%E5%88%97/1_subsets_78.md)  `中等` `回溯` `位运算`
 
 ## 7. 前缀树
 ## 8. 并查集
