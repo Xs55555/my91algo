@@ -87,6 +87,26 @@
 ### 33、位运算系列
 * [78. 子集](https://github.com/sinkhaha/my91algo/blob/master/solution/33_%E4%BD%8D%E8%BF%90%E7%AE%97%E7%B3%BB%E5%88%97/1_subsets_78.md)  `中等` `回溯` `位运算`
 
+### 34、动态规划
+* [70. 爬楼梯](https://github.com/sinkhaha/my91algo/blob/master/solution/34_%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E7%B3%BB%E5%88%97/1_climbStairs_70.md)
+
+
+* 62. 不同路径
+  
+* 121. 买卖股票的最佳时机
+
+* 122. 买卖股票的最佳时机 II
+
+* 123. 买卖股票的最佳时机 III
+
+* 188. 买卖股票的最佳时机 IV
+
+* 309. 最佳买卖股票时机含冷冻期
+
+* 714. 买卖股票的最佳时机含手续费
+
+
+
 ## 7. 前缀树
 ## 8. 并查集
 
