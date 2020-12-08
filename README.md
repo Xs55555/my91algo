@@ -88,7 +88,7 @@
 * [78. 子集](https://github.com/sinkhaha/my91algo/blob/master/solution/33_%E4%BD%8D%E8%BF%90%E7%AE%97%E7%B3%BB%E5%88%97/1_subsets_78.md)  `中等` `回溯` `位运算`
 
 ### 34、动态规划
-* [70. 爬楼梯](https://github.com/sinkhaha/my91algo/blob/master/solution/34_%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E7%B3%BB%E5%88%97/1_climbStairs_70.md)
+* [70. 爬楼梯](https://github.com/sinkhaha/my91algo/blob/master/solution/34_%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E7%B3%BB%E5%88%97/1_climbStairs_70.md) `简单` `动态规划` `递归`
 
 
 * 62.不同路径
@@ -106,7 +106,7 @@
 * 714.买卖股票的最佳时机含手续费
 
 ### 35、有效的括号
-* [20. 有效的括号](https://github.com/sinkhaha/my91algo/blob/master/solution/35_%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7/1_isValid_20.md)
+* [20. 有效的括号](https://github.com/sinkhaha/my91algo/blob/master/solution/35_%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7/1_isValid_20.md) `简单` `栈`
 
 * 32.最长有效括号
 
