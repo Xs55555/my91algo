@@ -105,7 +105,10 @@
 
 * 714.买卖股票的最佳时机含手续费
 
+### 35、有效的括号
+* [20. 有效的括号](https://github.com/sinkhaha/my91algo/blob/master/solution/35_%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7/1_isValid_20.md)
 
+* 32.最长有效括号
 
 ## 7. 前缀树
 ## 8. 并查集
