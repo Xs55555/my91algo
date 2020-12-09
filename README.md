@@ -110,6 +110,14 @@
 
 * 32.最长有效括号
 
+### 36、设计系列
+* [剑指 Offer 09. 用两个栈实现队列](https://github.com/sinkhaha/my91algo/blob/master/solution/36_%E8%AE%BE%E8%AE%A1%E7%B3%BB%E5%88%97/%E5%89%91%E6%8C%8709_CQueue.md) `简单` `栈`
+
+* 641.设计循环双端队列
+* 146.LRU 缓存机制
+* 1206.设计跳表
+
+
 ## 7. 前缀树
 ## 8. 并查集
 
