@@ -120,7 +120,7 @@
 ### 37、前缀和系列
 * [网易面试题](https://github.com/sinkhaha/my91algo/blob/master/solution/37_%E5%89%8D%E7%BC%80%E5%92%8C%E7%B3%BB%E5%88%97/1_%E7%BD%91%E6%98%93%E9%9D%A2%E8%AF%95%E9%A2%98.md)
 
-* [560. 和为K的子数组](https://github.com/sinkhaha/my91algo/blob/master/solution/37_%E5%89%8D%E7%BC%80%E5%92%8C%E7%B3%BB%E5%88%97/2_subarraySum_560.md)
+* [560. 和为K的子数组](https://github.com/sinkhaha/my91algo/blob/master/solution/37_%E5%89%8D%E7%BC%80%E5%92%8C%E7%B3%BB%E5%88%97/2_subarraySum_560.md) `中等` `前缀和` 
 
 * 371.每个元音包含偶数次的最长子字符串
 
@@ -136,8 +136,9 @@
 
 
 ## 7. 前缀树
-* [208. 实现 Trie (前缀树)](https://github.com/sinkhaha/my91algo/blob/master/solution/38_trie_208.md)
+* 38、[208. 实现 Trie (前缀树)](https://github.com/sinkhaha/my91algo/blob/master/solution/38_trie_208.md) `中等` `前缀树`
 
+* 39、[677. 键值映射](https://github.com/sinkhaha/my91algo/blob/master/solution/39_MapSum_677.md) `中等` `前缀树` `哈希表`
 
 ## 8. 并查集
 
