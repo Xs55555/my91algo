@@ -143,6 +143,8 @@
 * 40、[面试题 17.17. 多次搜索](https://github.com/sinkhaha/my91algo/blob/master/solution/40_multiSearch_%E9%9D%A2%E8%AF%95%E9%A2%9817.17.md) `中等` `前缀树`
 ## 8. 并查集
 * 41、[547. 朋友圈](https://github.com/sinkhaha/my91algo/blob/master/solution/41_findCircleNum_547.md) `中等` `并查集`
+
+* 42、924.尽量减少恶意软件的传播
 ## 9. 跳表
 
 ## 10. 剪枝
