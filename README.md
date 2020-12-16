@@ -145,6 +145,9 @@
 * 41、[547. 朋友圈](https://github.com/sinkhaha/my91algo/blob/master/solution/41_findCircleNum_547.md) `中等` `并查集`
 
 * 42、924.尽量减少恶意软件的传播
+
+* 43、[1319. 连通网络的操作次数](https://github.com/sinkhaha/my91algo/blob/master/solution/43_makeConnected_1319.md) `中等` `并查集`
+
 ## 9. 跳表
 
 ## 10. 剪枝
