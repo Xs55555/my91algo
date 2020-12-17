@@ -149,6 +149,7 @@
 * 43、[1319. 连通网络的操作次数](https://github.com/sinkhaha/my91algo/blob/master/solution/43_makeConnected_1319.md) `中等` `并查集`
 
 ## 9. 跳表
+* 44、[1206. 设计跳表](https://github.com/sinkhaha/my91algo/blob/master/solution/44_Skiplist_1206.md) `困难` `跳表`
 
 ## 10. 剪枝
 
