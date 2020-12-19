@@ -152,8 +152,11 @@
 * 44、[1206. 设计跳表](https://github.com/sinkhaha/my91algo/blob/master/solution/44_Skiplist_1206.md) `困难` `跳表`
 
 ## 10. 剪枝
-* 45、[39. 组合总和](https://github.com/sinkhaha/my91algo/blob/master/solution/45_combinationSum_39.md) `中等` `回溯` `减枝`
+* 45、[814. 二叉树剪枝]() `中等` `减枝`
 
+* 46、[39. 组合总和](https://github.com/sinkhaha/my91algo/blob/master/solution/45_combinationSum_39.md) `中等` `回溯` `减枝`
+
+* 47、[40. 组合总和 II]() `中等` `回溯` `减枝`
 ## 11. RK 和 KMP
 
 ## 12. 堆

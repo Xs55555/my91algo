@@ -45,8 +45,9 @@ candidates 中的数字可以无限制重复被选取。
 ## 解法
 ### 思路
 回溯+减枝
-递归做选择，当所选值大于目标值则退出
+先对数组排序，递归做选择，当所选值`candidates[i]`大于目标值target则退出，`candidates[i+1]`即后面的值肯定大于target，直接退出
 
+和40题的区别：每个数字都是独一无二；每个数字都可以被无限制重复选择
 ### 代码
 ```js
 /**
@@ -80,14 +81,14 @@ var combinationSum = function(candidates, target) {
 
         // 循环做选择 
         for (let i = begin; i < candidates.length; i++) {
-            // 剪枝，选择的数大于目标值则直接退出
+            // 剪枝，选择的数大于目标值，则后面的数也大于目标值，直接退出即可
             if (target - candidates[i] < 0) {
                 break;
             }
             // 选择
             track.push(candidates[i]);
             
-            // 回溯
+            // 回溯，i位置的数可以重复被选择
             backtrack(candidates, target - candidates[i], i, track);
             
             // 撤销选择
