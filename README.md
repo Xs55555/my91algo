@@ -159,5 +159,6 @@
 * 47、[40. 组合总和 II](https://github.com/sinkhaha/my91algo/blob/master/solution/47_combinationSum2_40.md) `中等` `回溯` `减枝`
 
 ## 11. RK 和 KMP
-
+* 48/49、[28. 实现 strStr()](https://github.com/sinkhaha/my91algo/blob/master/solution/48_49_strStr_28.md) `简单` `RK` `KMP`
 ## 12. 堆
+* 50、[215. 数组中的第K个最大元素]() 
