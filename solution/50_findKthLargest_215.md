@@ -58,5 +58,5 @@ class Solution {
 ```
 
 ### 复杂度
-* 时间复杂度：O(nlogn)
-* 空间复杂度：O(n)
+* 时间复杂度：O(n * logk) ，n是nums数组大小，k是堆的大小，此题目的k等于n
+* 空间复杂度：O(k)
