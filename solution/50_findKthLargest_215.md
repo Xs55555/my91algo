@@ -60,3 +60,23 @@ class Solution {
 ### 复杂度
 * 时间复杂度：O(n * logk) ，n是nums数组大小，k是堆的大小，此题目的k等于n
 * 空间复杂度：O(k)
+
+## 解法：排序
+### 思路
+直接从大到小排序，取第k个数即可
+### 代码
+```js
+/**
+ * @param {number[]} nums
+ * @param {number} k
+ * @return {number}
+ */
+var findKthLargest = function(nums, k) {
+    nums.sort((a, b) => parseInt(b) - parseInt(a));
+    return nums[k - 1];
+};
+```
+
+### 复杂度
+* 时间复杂度：O(nlogn) - n  ，n是nums数组大小
+* 空间复杂度：O(1)
