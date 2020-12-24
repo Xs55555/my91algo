@@ -33,6 +33,7 @@
 ```java
 class Solution {
     public int findKthLargest(int[] nums, int k) {
+        // java优先队列默认就是优先取到小的元素，即小顶堆
         PriorityQueue<Integer> queue = new PriorityQueue<Integer>(new Comparator<Integer>() {
             public int compare(Integer a, Integer b) {
                 return a - b; // 小顶堆
