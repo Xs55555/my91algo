@@ -165,3 +165,5 @@
 
 * 51、[1046. 最后一块石头的重量](https://github.com/sinkhaha/my91algo/blob/master/solution/51_lastStoneWeight_1046.md) `简单` `大顶堆`
 
+* 52、[23. 合并K个升序链表](https://github.com/sinkhaha/my91algo/blob/master/solution/52_mergeKLists_23.md) `困难` `小顶堆`
+
