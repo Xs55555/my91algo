@@ -167,6 +167,7 @@
 
 * 52、[23. 合并K个升序链表](https://github.com/sinkhaha/my91algo/blob/master/solution/52_mergeKLists_23.md) `困难` `小顶堆`
 
+* 53、[451. 根据字符出现频率排序](https://github.com/sinkhaha/my91algo/blob/master/solution/53_frequencySort_451.md) `中等` `大顶堆` `哈希表`
 # 专题篇
 ## 13. 二分
 
