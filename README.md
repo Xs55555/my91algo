@@ -168,6 +168,8 @@
 * 52、[23. 合并K个升序链表](https://github.com/sinkhaha/my91algo/blob/master/solution/52_mergeKLists_23.md) `困难` `小顶堆`
 
 * 53、[451. 根据字符出现频率排序](https://github.com/sinkhaha/my91algo/blob/master/solution/53_frequencySort_451.md) `中等` `大顶堆` `哈希表`
+
+* 54、[378. 有序矩阵中第K小的元素](https://github.com/sinkhaha/my91algo/blob/master/solution/54_kthSmallest_378.md) `中等` `大顶堆` `排序` `二分查找`
 # 专题篇
 ## 13. 二分
 
