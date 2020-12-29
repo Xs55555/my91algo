@@ -170,6 +170,9 @@
 * 53、[451. 根据字符出现频率排序](https://github.com/sinkhaha/my91algo/blob/master/solution/53_frequencySort_451.md) `中等` `大顶堆` `哈希表`
 
 * 54、[378. 有序矩阵中第K小的元素](https://github.com/sinkhaha/my91algo/blob/master/solution/54_kthSmallest_378.md) `中等` `大顶堆` `排序` `二分查找`
+
+* 55、[1054. 距离相等的条形码](https://github.com/sinkhaha/my91algo/blob/master/solution/55_rearrangeBarcodes_1054.md) `中等` `大顶堆`
+
 # 专题篇
 ## 13. 二分
 
