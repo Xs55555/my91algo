@@ -175,7 +175,7 @@
 
 # 专题篇
 ## 13. 二分
-* 56、[69. x 的平方根]() `简单` `二分查找`
+* 56、[69. x 的平方根](https://github.com/sinkhaha/my91algo/blob/master/solution/56_mySqrt_69.md) `简单` `二分查找`
 ## 14. 滑动窗口
 
 ## 15. 位运算
