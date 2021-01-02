@@ -177,7 +177,9 @@
 ## 13. 二分
 * 56、[69. x 的平方根](https://github.com/sinkhaha/my91algo/blob/master/solution/56_mySqrt_69.md) `简单` `二分查找`
 
-* 57、[278. 第一个错误的版本]() `简单` `二分查找`
+* 57、[278. 第一个错误的版本](https://github.com/sinkhaha/my91algo/blob/master/solution/57_isBadVersion_278.md) `简单` `二分查找`
+
+
 ## 14. 滑动窗口
 
 ## 15. 位运算
