@@ -180,6 +180,9 @@
 * 57、[278. 第一个错误的版本](https://github.com/sinkhaha/my91algo/blob/master/solution/57_isBadVersion_278.md) `简单` `二分查找`
 
 * 58、[162. 寻找峰值](https://github.com/sinkhaha/my91algo/blob/master/solution/58_findPeakElement_162.md) `中等` `二分查找`
+
+* 59、[1712. 将数组分成三个子数组的方案数](https://github.com/sinkhaha/my91algo/blob/master/solution/59_waysToSplit_5643.md) `中等` `二分查找` `前缀和`
+
 ## 14. 滑动窗口
 
 ## 15. 位运算
