@@ -114,8 +114,9 @@
 * [剑指 Offer 09. 用两个栈实现队列](https://github.com/sinkhaha/my91algo/blob/master/solution/36_%E8%AE%BE%E8%AE%A1%E7%B3%BB%E5%88%97/%E5%89%91%E6%8C%8709_CQueue.md) `简单` `栈`
 
 * 641.设计循环双端队列
-* 146.LRU 缓存机制
-* 1206.设计跳表
+* [146.LRU 缓存机制](https://github.com/sinkhaha/my91algo/blob/master/solution/12_LRUCache_146.md) `中等` `设计` `哈希表` `双向链表`
+
+* [1206.设计跳表](https://github.com/sinkhaha/my91algo/blob/master/solution/44_Skiplist_1206.md) `困难` `跳表`
 
 ### 37、前缀和系列
 * [网易面试题](https://github.com/sinkhaha/my91algo/blob/master/solution/37_%E5%89%8D%E7%BC%80%E5%92%8C%E7%B3%BB%E5%88%97/1_%E7%BD%91%E6%98%93%E9%9D%A2%E8%AF%95%E9%A2%98.md)
@@ -125,14 +126,15 @@
 * 371.每个元音包含偶数次的最长子字符串
 
 * 308
-* 525
-* 1139
+
+* 525、 连续数组
+* 1139、最大的以 1 为边界的正方形
 * 1176
 * 1182
-* 1277
-* 1292
-* 1314
-* 1504
+* 1277、统计全为 1 的正方形子矩阵
+* 1292、元素和小于等于阈值的正方形的最大边长
+* 1314、矩阵区域和
+* 1504、统计全 1 子矩形
 
 
 ## 7. 前缀树
