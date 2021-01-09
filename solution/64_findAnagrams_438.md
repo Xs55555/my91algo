@@ -43,12 +43,10 @@ s: "abab" p: "ab"
 ### 思路
 * 维护2个map，一个needPatchMap存需要匹配的字符及其个数，一个winMap存窗口中符合匹配的字符及其个数
 * 左右指针在s上移动，保持窗口大小为p的长度，窗口扩大和缩小时，进行窗口数据的更新
->解法类似567题的 checkInclusion
+>解法类似`567题的 checkInclusion`，`76题的 minWindow`
 ### 代码
 ```js
 /**
- * 时间复杂度O(N) N为source度长度
- * 空间复杂度O(M) M为target度长度
  * 
  * @param {string} s
  * @param {string} p
@@ -121,5 +119,5 @@ var findAnagrams = function(s, p) {
 };
 ```
 ### 复杂度
-* 时间复杂度O(N) N为source度长度
-* 空间复杂度O(M) M为target度长度
+* 时间复杂度O(N) N为s度长度
+* 空间复杂度O(M) M为p度长度
