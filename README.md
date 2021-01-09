@@ -189,7 +189,7 @@
 
 * 61、[778. 水位上升的泳池中游泳](https://github.com/sinkhaha/my91algo/blob/master/solution/61_swimInWater_778.md) `困难` `二分查找` `dfs`
 ## 14. 滑动窗口
-* 62、[1456. 定长子串中元音的最大数目](https://github.com/sinkhaha/my91algo/blob/master/solution/62_maxVowels_1456.md)
+* 62、[1456. 定长子串中元音的最大数目](https://github.com/sinkhaha/my91algo/blob/master/solution/62_maxVowels_1456.md) `中等` `滑动窗口`
   
 * 63、[837. 新21点](https://github.com/sinkhaha/my91algo/blob/master/solution/63_new21Game_837.md) `中等` `动态规划` `滑动窗口`
 
