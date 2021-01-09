@@ -190,6 +190,9 @@
 * 62、[1456. 定长子串中元音的最大数目](https://github.com/sinkhaha/my91algo/blob/master/solution/62_maxVowels_1456.md)
   
 * 63、[837. 新21点](https://github.com/sinkhaha/my91algo/blob/master/solution/63_new21Game_837.md) `中等` `动态规划` `滑动窗口`
+
+* 64、[438. 找到字符串中所有字母异位词](https://github.com/sinkhaha/my91algo/blob/master/solution/64_findAnagrams_438.md) `中等` `滑动窗口`
+
 ## 15. 位运算
 
 ## 16. 搜索
