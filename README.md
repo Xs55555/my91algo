@@ -197,7 +197,7 @@
 
 * 65、[76. 最小覆盖子串](https://github.com/sinkhaha/my91algo/blob/master/solution/65_minWindow_76.md) `困难` `滑动窗口`
 ## 15. 位运算
-
+* 66、[268. 丢失的数字]() `简单` `异或`
 ## 16. 搜索
 
 ## 17. 背包问题
