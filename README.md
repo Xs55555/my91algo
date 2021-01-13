@@ -201,7 +201,9 @@
 
 * 67、[面试题 01.01. 判定字符是否唯一](https://github.com/sinkhaha/my91algo/blob/master/solution/67_isUnique_%E9%9D%A2%E8%AF%95%E9%A2%9801.01.md) `简单`  `左移` `与` `或`
 ## 16. 搜索
-* 68、[401. 二进制手表]() `简单` `回溯`
+* 68、[401. 二进制手表](https://github.com/sinkhaha/my91algo/blob/master/solution/68_readBinaryWatch_401.md) `简单` `回溯`
+
+* 69、[52. N皇后 II]() `困难` `回溯`
 ## 17. 背包问题
 
 ## 18. 动态规划
