@@ -203,7 +203,7 @@
 ## 16. 搜索
 * 68、[401. 二进制手表](https://github.com/sinkhaha/my91algo/blob/master/solution/68_readBinaryWatch_401.md) `简单` `回溯`
 
-* 69、[52. N皇后 II]() `困难` `回溯`
+* 69、[52. N皇后 II](https://github.com/sinkhaha/my91algo/blob/master/solution/69_totalNQueens_52.md) `困难` `回溯`
 ## 17. 背包问题
 
 ## 18. 动态规划
