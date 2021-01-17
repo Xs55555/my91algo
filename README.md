@@ -205,7 +205,9 @@
 
 * 69、[52. N皇后 II](https://github.com/sinkhaha/my91algo/blob/master/solution/69_totalNQueens_52.md) `困难` `回溯`
 
-* 70、[695. 岛屿的最大面积]()  `中等` `深度优先搜索`
+* 70、[695. 岛屿的最大面积](https://github.com/sinkhaha/my91algo/blob/master/solution/70_maxAreaOfIsland_695.md)  `中等` `深度优先搜索`
+
+* 71、[1162. 地图分析](https://github.com/sinkhaha/my91algo/blob/master/solution/71_maxDistance_1162.md) `中等` `bfs`
 ## 17. 背包问题
 
 ## 18. 动态规划
