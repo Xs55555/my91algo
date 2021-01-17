@@ -208,6 +208,8 @@
 * 70、[695. 岛屿的最大面积](https://github.com/sinkhaha/my91algo/blob/master/solution/70_maxAreaOfIsland_695.md)  `中等` `深度优先搜索`
 
 * 71、[1162. 地图分析](https://github.com/sinkhaha/my91algo/blob/master/solution/71_maxDistance_1162.md) `中等` `bfs`
+
+* 72、[113. 路径总和 II](https://github.com/sinkhaha/my91algo/blob/master/solution/72_pathSum_113.md) `中等` `深度优先搜索`
 ## 17. 背包问题
 
 ## 18. 动态规划
