@@ -1,10 +1,40 @@
+## 题目
+**删除无效的括号**
+>困难
+
+删除最小数量的无效括号，使得输入的字符串有效，返回所有可能的结果。
+
+说明: 输入可能包含了除 ( 和 ) 以外的字符。
+
+示例 1:
+```
+输入: "()())()"
+输出: ["()()()", "(())()"]
+```
+
+示例 2:
+```
+输入: "(a)())()"
+输出: ["(a)()()", "(a())()"]
+```
+
+示例 3:
+```
+输入: ")("
+输出: [""]
+```
+>来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/remove-invalid-parentheses
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+
+## 解法：bfs
+### 思路
+bfs，依次删除s的第i个字符，然后判断剩下的字符串是否有效，有效则添加进结果数组
+   
+### 代码
+```js
 
 /**
- * 依次删除第i个字符，判断是否有效，有效则添加进最终的返回数组
- * 
- * 只需要递归调用依次删除第i个字符的功能就可以
- * 
- * bfs
  * 
  * @param {string} s
  * @return {string[]}
@@ -22,14 +52,17 @@ var removeInvalidParentheses = function (s) {
     // 只记录最小改动
     let removedParentheses = 0; 
 
-    while ((current = queue.shift())) {
+    while (queue.length) {
+        current = queue.shift()
         // 是否有效
         let hit = isValid(current);
         if (hit) {
             if (!removedParentheses) {
                 removedParentheses = s.length - current.length
             }
-            if (s.length - current.length > removedParentheses) return ret.length === 0 ? [""] : ret;;
+            if (s.length - current.length > removedParentheses) {
+                return ret.length === 0 ? [''] : ret;
+            }
             ret.unshift(current);
             continue;
         }
@@ -69,3 +102,4 @@ var isValid = function (s) {
     }
     return openParenthes === 0;
 };
+```
