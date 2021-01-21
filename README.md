@@ -210,7 +210,15 @@
 * 71、[1162. 地图分析](https://github.com/sinkhaha/my91algo/blob/master/solution/71_maxDistance_1162.md) `中等` `bfs`
 
 * 72、[113. 路径总和 II](https://github.com/sinkhaha/my91algo/blob/master/solution/72_pathSum_113.md) `中等` `深度优先搜索`
+
+* 73、[1255. 得分最高的单词集合](https://github.com/sinkhaha/my91algo/blob/master/solution/73_maxScoreWords_1255.md) `困难` `回溯`
+
+* 74、[301. 删除无效的括号](https://github.com/sinkhaha/my91algo/blob/master/solution/74_removeInvalidParentheses_301.md) `困难` `bfs`
+
 ## 17. 背包问题
+* 75、[416. 分割等和子集](https://github.com/sinkhaha/my91algo/blob/master/solution/75_canPartition_416.md) `中等` `动态规划` `0-1背包`
+
+* 76、[494. 目标和](https://github.com/sinkhaha/my91algo/blob/master/solution/76_findTargetSumWays_494.md) `中等` `动态规划` `0-1背包`
 
 ## 18. 动态规划
 
