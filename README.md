@@ -224,7 +224,7 @@
 
 * 78、[518. 零钱兑换 II](https://github.com/sinkhaha/my91algo/blob/master/solution/78_change_518.md) `中等` `动态规划` `完全背包`
 ## 18. 动态规划
-
+* 79、[746. 使用最小花费爬楼梯](https://github.com/sinkhaha/my91algo/blob/master/solution/79_minCostClimbingStairs_746.md) `简单` `动态规划` 
 ## 19. 分治 
 
 ## 20.贪心
