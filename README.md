@@ -225,7 +225,15 @@
 * 78、[518. 零钱兑换 II](https://github.com/sinkhaha/my91algo/blob/master/solution/78_change_518.md) `中等` `动态规划` `完全背包`
 ## 18. 动态规划
 * 79、[746. 使用最小花费爬楼梯](https://github.com/sinkhaha/my91algo/blob/master/solution/79_minCostClimbingStairs_746.md) `简单` `动态规划` 
-## 19. 分治 
+  
+* 79_2、加餐 [铺瓷砖](https://github.com/sinkhaha/my91algo/blob/master/solution/79_2_ceramic.md)
+  
+* 80、[剑指 Offer 47. 礼物的最大价值](https://github.com/sinkhaha/my91algo/blob/master/solution/80_maxValue_%E5%89%91%E6%8C%8747.md) `中等` `动态规划`
 
-## 20.贪心
+* 81、[338. 比特位计数](https://github.com/sinkhaha/my91algo/blob/master/solution/81_countBits_338.md) `中等` `动态规划`
 
+* 82、[688. “马”在棋盘上的概率](https://github.com/sinkhaha/my91algo/blob/master/solution/82_knightProbability_688.md) `中等` `动态规划`
+## 19. 位运算 
+* 83、[78. 子集](https://github.com/sinkhaha/my91algo/blob/master/solution/83_subsets_78.md) `中等` `位运算`
+
+* 84、[260. 只出现一次的数字 III](https://github.com/sinkhaha/my91algo/blob/master/solution/84_singleNumber_260.md) `中等` `位运算`
