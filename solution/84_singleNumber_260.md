@@ -24,6 +24,7 @@
 
 https://leetcode-cn.com/problems/single-number-iii/solution/zhi-chu-xian-yi-ci-de-shu-zi-iii-by-leetcode/
 
+具体注释见代码
 ### 代码
 ```js
 /**
@@ -33,19 +34,24 @@ https://leetcode-cn.com/problems/single-number-iii/solution/zhi-chu-xian-yi-ci-d
  * @return {number[]}
  */
 var singleNumber = function(nums) {
+    // 异或(相同为0，不同为1)
+    // 会消除出现两次的数字，bitmask =会保留只出现一次的两个数字（x 和 y）之间的差异
     let bitmask = 0;
     for (let num of nums) {
         bitmask ^= num;
     }
 
+    // 保留位中最右边1(这个1要么来自x，要么来自y)，且将其余的1置为 0
     let diff = bitmask & (-bitmask);
     
+    // 从bitmask中分离x和y
     let x = 0;
     for (let num of nums) {
         if ((num & diff) != 0) {
             x ^= num;
         }
     }
+    // 找到了x，则y = bitmask^x
     return [x, bitmask^x];
 };
 ```
