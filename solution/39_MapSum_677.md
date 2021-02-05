@@ -38,7 +38,7 @@ mapSum.sum("ap");           // return 5 (apple + app = 3 + 2 = 5)
 ## 解法：哈希表
 ### 思路
 * insert时，直接用哈希表存单词，key是单词，value是对应的值
-* sum取得哈希表全部的key，累加前缀为prefix的valu
+* sum取得哈希表全部的key，累加前缀为prefix的value
 
 ### 代码
 ```js
