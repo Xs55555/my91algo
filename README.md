@@ -8,7 +8,7 @@
 
 * 3、[1381. 设计一个支持增量操作的栈](https://github.com/sinkhaha/my91algo/blob/master/solution/3_CustomStack_1381.md) `中等` `栈`
 
-* 4、[394. 符串解码](https://github.com/sinkhaha/my91algo/blob/master/solution/4_decodeString_394.md) `中等` `栈`
+* 4、[394. 字符串解码](https://github.com/sinkhaha/my91algo/blob/master/solution/4_decodeString_394.md) `中等` `栈`
 
 * 5、[232. 用栈实现队列](https://github.com/sinkhaha/my91algo/blob/master/solution/5_MyQueue_232.md)  `简单` `栈` `队列` `设计`
 
@@ -167,7 +167,7 @@
 
 * 51、[1046. 最后一块石头的重量](https://github.com/sinkhaha/my91algo/blob/master/solution/51_lastStoneWeight_1046.md) `简单` `大顶堆`
 
-* 52、[23. 合并K个升序链表](https://github.com/sinkhaha/my91algo/blob/master/solution/52_mergeKLists_23.md) `困难` `小顶堆`
+* 52、[23. 合并K个升序链表](https://github.com/sinkhaha/my91algo/blob/master/solution/52_mergeKLists_23.md) `困难` `小顶堆` `合并k个有序数组`
 
 * 53、[451. 根据字符出现频率排序](https://github.com/sinkhaha/my91algo/blob/master/solution/53_frequencySort_451.md) `中等` `大顶堆` `哈希表`
 
